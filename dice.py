@@ -7,6 +7,10 @@ def roll_dice():
     print("Die 1:", a)
     print("Die 2:", b)
     print("Total value:", a + b)
+    if a + b >= 7:
+        print("You won")
+    else:
+        print("You lost.")
 
 
 def greeting():
