@@ -8,7 +8,7 @@ def roll_dice():
     print("Die 2:", b)
     print("Total value:", a + b)
     if a + b >= 7:
-        print("You won")
+        print("You won!")
     else:
         print("You lost.")
 
@@ -19,4 +19,4 @@ def greeting():
 
 if __name__ == "__main__":
     greeting()
-    git roll_dice()
+    roll_dice()
