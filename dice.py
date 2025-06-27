@@ -19,3 +19,4 @@ def greeting():
 
 if __name__ == "__main__":
     greeting()
+    git roll_dice()
